@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= port, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin:2px;
+        padding:2px;
+    }
+
+
+body{ font-family: "Fredoka", sans-serif;
+    
+    background-color: #030331;
+color:#F8F8FF;
+}
+nav{
+    background-color: #003D99;
+    height: 50px;
+    border-radius: 10px;
+    display:flex;
+justify-content:space-between;
+align-items: center;
+}
+.right ul{
+    list-style: none;  
+display:flex;
+gap:30px;}
+.right ul a{
+text-decoration: none;
+color: #F8F8FF;
+}
+.right ul a:hover{
+    color:#0096c7;
+    font-size:1.07em;
+
+}
+.left{
+   
+    font-size:1.75rem;
+}
+
+.firstsection{
+
+    display:flex;
+    justify-content: space-around;
+}
+
+.leftsection{
+    margin-top: 90px;;
+font-size: 3.5rem;
+}
+.rightsection{
+width:30%
+}
+#img{
+width :70%;
+display:flex;
+margin-top: 100px;
+}
+#name{color:#00b4d8}
+#element{color:#00b4d8}
+hr{
+width: 90%;
+height:0.1px; 
+background-color: #03265a;
+border: 0;
+margin: 100px;;
+}
+span {color:#00b4d8;
+padding: 10px;}
+
+.introduction{
+    margin: 40px;
+    padding: 40px;
+    font-size: 1.8rem;
+}
+.aboutme{
+    margin: 40px;
+    padding: 40px;
+    font-size: 1.8rem;
+}.education{
+    margin: 40px;
+    padding: 40px;
+    font-size: 1.8rem;
+}.skill{
+    margin: 40px;
+    padding: 40px;
+    font-size: 1.8rem;
+}.project{
+    margin: 40px;
+    padding: 40px;
+    font-size: 1.8rem;
+}
+.footer-content p { 
+    padding: 20px;
+margin: auto;
+}
+.footer-links:hover{
+    color:#0096c7;
+    font-size:1.1rem;
+}
+
+
+
+    </style>
+</head>
+<body>
+<header>
+<nav>
+<div class="left"> Prince's Portfolio </div>
+<div class="right"> <ul>
+    <li><a href="">Home</a></li>
+    <li><a href="">contact me</a></li>
+    <li><a href="">about</a></li>
+    <li><a href="">services</a></li>
+</ul></div>
+</nav>
+
+
+
+</header>
+
+<main>
+    <section class="firstsection">
+        <div class="leftsection">Hi , I am <span id="name">Prince</span> </br>and I am Passionated </br>about </br> <span id="element"></span></div>
+         
+        <div class="rightsection">
+<img id="img" src="img1.png" alt="">
+        </div>
+    </section>
+    <hr>
+<section class="secondsection">
+<div class="introduction">
+   <span> <h2>INDRODUCTION</h2></span>
+    Hi, I'm Prince kumar, A
+
+ Student at NIT Raipur | Aspiring Frontend Web DeveloperPassionate about building modern, responsive, and user-friendly websites. Currently pursuing B.Tech in Civil Engineering at NIT Raipur with a CGPA of 8.75 in the first year (Semester 1 & 2). Alongside academics, I actively learn web development and programming to build practical technical skills.
+I enjoy transforming ideas into interactive web experiences and continuously improving my knowledge of frontend technologies.
+<span>"Learning, Building, and Growing Every Day."</span>
+</div>
+<div class="aboutme">
+<span><h2>ABOUT ME </h2></span>
+ I'm a second-year B.Tech student at NIT Raipur pursuing Civil Engineering.
+While my academic discipline is Civil Engineering, I have developed a strong interest in software and web development. Over the past few months, I have been learning HTML, CSS, JavaScript, C++, and Java while building projects to strengthen my practical skills.
+My academic performance reflects my dedication and consistency,<span>with a CGPA of 8.75 in my first year. </span> I am currently seeking opportunities where I can contribute, learn from experienced developers, and gain real-world industry exposure.
+</div>
+<div class="education"> 
+   <span><h2>EDUCATION</h2></span> 
+<ul>
+    <li>First-Year CGPA: 8.75</li>
+    <li>Strong academic foundation in Mathematics, Engineering Sciences, and Problem Solving</li>
+    <li>Active learner in Web Development and Programming</li>
+</ul>
+</div>
+<div class="skill"> 
+   <span><h2>SKILL</h2></span> <br>
+    <h4>Techinical skill</h4><br>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>javascript(basic)</li>
+        <li>web design</li>
+    </ul><br>
+    <h4>soft skill</h4><br>
+    <ul>
+        <li>Problem solving</li>
+        <li>Quick learning</li>
+        <li>Team work</li>
+        <li>Communication</li>
+        <li>Time management</li>
+    </ul>
+</div>
+<div class="project"> 
+   <span><h2>PROJECT</h2></span> 
+    Personal Portfolio Website <br/>
+Designed and developed a responsive portfolio website to showcase my education, skills, and projects.
+ <span>using: HTML, CSS</span>
+</div>
+</section>
+<hr>
+<footer>
+<div class="footer-content">
+
+<span>Prince kumar</span>
+<p>Aspiring web developer | NIT Raipur</p>
+
+<div class="footer-links">   
+<a href="">Email</a>
+<a href="">Llinkedin</a>
+</div>
+<p class="copyright">© 2026 all right reserved</p>
+<hr>
+
+
+
+</footer>
+
+
+</main>
+
+
+
+
+
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+     <script>
+    var typed = new Typed('#element', {
+      strings: ['web developing', 'learning new skills','and video editing.', ''],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
